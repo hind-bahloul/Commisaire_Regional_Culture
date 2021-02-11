@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Evenements">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="التظاهرات الثقافية بساقية الدائر"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView29"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="التاريخ"
+                                        android:gravity="center"
+
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/textView30"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:text="المعلقة"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/textView31"
+                                        android:layout_width="150dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="إسم التظاهرة"
+                                        android:gravity="center"
+
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView37"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+
+                                        android:text="يومي 11 و 12 سبتمبر 2020 "
+                                        android:gravity="center"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView14"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+                                        app:srcCompat="@mipmap/evv" />
+
+                                    <TextView
+                                        android:id="@+id/textView36"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:text="ويكاند theater"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp" />
+
+                                </LinearLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView39"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp"
+                                        android:text="من 21 إلى 24 ديسمبر 2019" />
+
+                                    <ImageView
+                                        android:id="@+id/imageView15"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+                                        app:srcCompat="@mipmap/evv1" />
+
+                                    <TextView
+                                        android:id="@+id/textView38"
+                                        android:layout_width="150dp"
+                                        android:layout_height="200dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:textColor="@android:color/black"
+                                        android:textSize="15sp"
+                                        android:text="المهرجان العربي للكمنجة" />
+                                </LinearLayout>
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </TableLayout>
+
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

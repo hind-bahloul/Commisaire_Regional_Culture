@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_one"
+            android:icon="@drawable/tha9afa"
+            android:title="دور الثقافة" />
+        <item
+            android:id="@+id/nav_two"
+            android:icon="@drawable/book"
+            android:title="المكتبات العمومية" />
+        <item
+            android:id="@+id/nav_three"
+            android:icon="@drawable/theatro"
+            android:title="مركز الفنون الدرامية و الركحية" />
+
+        <item
+            android:id="@+id/nav_five"
+            android:icon="@drawable/tadhahoura"
+            android:title="المعهد العمومي للموسيقى و الرقص" />
+        <item
+            android:id="@+id/nav_four"
+            android:icon="@mipmap/evenement"
+            android:title="التظاهرات الثقافية" />
+
+        <item
+            android:id="@+id/nav_sept"
+            android:icon="@mipmap/festival"
+            android:title="المهرجنات الصيفية" />
+        <item
+            android:id="@+id/nav_six"
+            android:icon="@mipmap/association"
+            android:title="الجمعيات" />
+
+        <item
+            android:id="@+id/nav_huit"
+            android:icon="@mipmap/image"
+            android:title="صور" />
+    </group>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logomandoubiya"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".biblio_gremda"></activity>
+        <activity android:name=".biblio_agerib" />
+        <activity android:name=".biblio_skhira" />
+        <activity android:name=".biblio_sfax_jardin" />
+        <activity android:name=".biblio_sakiet_ezzite" />
+        <activity android:name=".biblio_mahres" />
+        <activity android:name=".biblio_sakiet_eddayer" />
+        <activity android:name=".Association_dev_durable" />
+        <activity android:name=".Association_Positive" />
+        <activity android:name=".Association_Cooperation" />
+        <activity android:name=".Association_Environment" />
+        <activity android:name=".association_tourisme" />
+        <activity android:name=".association_khebra" />
+        <activity android:name=".radros" />
+        <activity android:name=".ettawasel" />
+        <activity android:name=".Association_Volunteer" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".Evenement_culturels" />
+        <activity android:name=".Festival" />
+        <activity android:name=".Conservatoire" />
+        <activity android:name=".Associations" />
+        <activity android:name=".Evenements" />
+        <activity android:name=".ClubsFondokHaddedin" />
+        <activity android:name=".MaisonCultureFondo9_Haddedin" />
+        <activity android:name=".Club_MaisonCulture_Ghraiba" />
+        <activity android:name=".MaisonCultureGhraiba" />
+        <activity android:name=".Club_MaisonCulture_BebBhar" />
+        <activity android:name=".ClubsSakietEddayer" />
+        <activity android:name=".BiblioMobileKerkeneh" />
+        <activity android:name=".CentreDramatique" />
+        <activity android:name=".Bibliotheques" />
+        <activity android:name=".MaisonCultures" />
+        <activity android:name=".BiblioMobile" />
+        <activity android:name=".BiblioBebBhar" />
+        <activity android:name=".MaisonCulture" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".MaisonCultureBebBhar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
